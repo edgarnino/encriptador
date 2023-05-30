@@ -57,7 +57,7 @@ function desencriptar(stringDesencriptar) {
         if(stringDesencriptar.includes(claves[i][0])) {
             stringDesencriptar = stringDesencriptar.replaceAll(claves[i][1], claves[i][0]);
         }
-    } return stringEncriptar;    
+    } return stringDesencriptar;    
 }
 
 function copiarTexto() {
